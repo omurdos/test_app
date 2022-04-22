@@ -19,6 +19,4 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       run: echo hello, world!
     - name: Run a multi-line script
-      run: | 
-      echo Add other action build,
-      echo test, and deploy your name.
+      run: echo test, and deploy your name.
